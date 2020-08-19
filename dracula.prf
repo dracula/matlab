@@ -1,0 +1,49 @@
+# Dracula - MATLAB color scheme
+# Created by j-hap
+# 2020-01-28
+# Dracula Color Palette
+# Name          HEX            RGB                HSL                Java Int
+# Background    #282a36         40  42  54        231°  15% 18%    -14144970
+# Current Line  #44475a         68  71  90        232°  14% 31%    -12302502
+# Selection     #44475a         68  71  90        232°  14% 31%    -12302502
+# Foreground    #f8f8f2        248 248 242         60°  30% 96%    -460558
+# Comment       #6272a4         98 114 164        225°  27% 51%    -10325340
+# Cyan          #8be9fd        139 233 253        191°  97% 77%    -7607811
+# Green         #50fa7b         80 250 123        135°  94% 65%    -11470213
+# Orange        #ffb86c        255 184 108         31° 100% 71%    -18324
+# Pink          #ff79c6        255 121 198        326° 100% 74%    -34362
+# Purple        #bd93f9        189 147 249        265°  89% 78%    -4353031
+# Red           #ff5555        255  85  85          0° 100% 67%    -43691
+# Yellow        #f1fa8c        241 250 140         65°  92% 76%    -918900
+# see https://github.com/dracula/dracula-theme for more info
+ColorsUseSystem=Bfalse
+ColorsUseMLintAutoFixBackground=Btrue
+Editor.VariableHighlighting.Automatic=Btrue
+Editor.NonlocalVariableHighlighting=Btrue
+EditorCodepadHighVisible=Btrue
+EditorCodeBlockDividers=Btrue
+Editorhighlight-caret-row-boolean=Btrue
+EditorRightTextLineVisible=Btrue
+EditorRightTextLimitLineWidth=I1                         # Width of bar for right-hand text limit
+ColorsText=C-460558                                      # Main text colour
+ColorsBackground=C-14144970                              # Main background colour
+Colors_M_Keywords=C-34362                                # Text for keywords (function, for, end, etc)
+Colors_M_Comments=C-10325340                             # Text for comments
+Colors_M_Strings=C-918900                                # Text for strings
+Colors_M_UnterminatedStrings=C-43691                     # Text for unterminated strings
+Colors_M_SystemCommands=C-18324                          # Text for shell commands
+Colors_M_Errors=C-43691                                  #*Editor error messages and underlines, go-to bars
+Colors_HTML_HTMLLinks=C-7607811                          # Text for URLs
+Color_CmdWinWarnings=C-18324                             #^Command window Warning text
+Color_CmdWinErrors=C-43691                               #^Command window Error text
+Colors_M_Warnings=C-18324                                #*Editor Warning underlines and go-to-warning bars
+ColorsMLintAutoFixBackground=C-12302502                  # Background for autofixable
+Editor.VariableHighlighting.Color=C-4353031              #*Background for occurances of current variable
+Editor.NonlocalVariableHighlighting.TextColor=C-7607811  # Text for global variables
+Editorhighlight-lines=C-12302502                         # Background of current cell
+Editorhighlight-caret-row-boolean-color=C-12302502       # Background of current line
+EditorRightTextLimitLineColor=C-12302502                 # Colour of bar for right-hand text limit
+
+#Legend
+#  * = Preference does not update until after restarting MATLAB
+#  ^ = Preference not present on all versions of MATLAB
